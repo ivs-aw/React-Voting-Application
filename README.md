@@ -26,3 +26,17 @@ Once you have pasted your private key and contract address in the .env file, sim
 ```shell
 npm start
 ```
+
+## mumbaiへのデプロイ記録
+
+```bash
+npx hardhat run scripts/deploy.js --network mumbai
+```
+
+実行結果
+
+```bash
+Downloading compiler 0.8.11
+Compiled 1 Solidity file successfully
+Contract address: 0x6659c4f3454Ab72FfFF9d902E645e4E161624063
+```
